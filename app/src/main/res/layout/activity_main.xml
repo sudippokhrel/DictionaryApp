@@ -35,7 +35,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/tvword"
+                android:id="@+id/tvWord"
                 android:text="Word"
                 android:padding="8dp"
                 android:textStyle="italic"
@@ -46,9 +46,9 @@
                 android:layout_height="wrap_content">
 
             </TextView>
-            
+
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvphonetics"
+                android:id="@+id/rvPhonetics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvmeanings"
+                android:id="@+id/rvMeanings"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
