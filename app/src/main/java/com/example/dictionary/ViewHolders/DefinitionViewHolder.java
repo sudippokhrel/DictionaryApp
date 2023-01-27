@@ -9,10 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.dictionary.R;
 
 public class DefinitionViewHolder extends RecyclerView.ViewHolder {
-    TextView tvDefinitions;
-    TextView tvExamples;
-    TextView tvSynonyms;
-    TextView tvAntonyms;
+    public TextView tvDefinitions;
+    public TextView tvExamples;
+    public TextView tvSynonyms;
+    public TextView tvAntonyms;
 
     public DefinitionViewHolder(@NonNull View itemView) {
         super(itemView);

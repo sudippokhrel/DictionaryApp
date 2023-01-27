@@ -9,7 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.dictionary.R;
 
 public class MeaningsViewHolder extends RecyclerView.ViewHolder {
-    TextView tvPartsOfSpeech,rvDefinitions;
+    public TextView tvPartsOfSpeech;
+    public RecyclerView rvDefinitions;
     public MeaningsViewHolder(@NonNull View itemView) {
         super(itemView);
         tvPartsOfSpeech =itemView.findViewById(R.id.tvPartsOfSpeech);

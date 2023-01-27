@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         tvWord = findViewById(R.id.tvWord);
         rvPhonetics = findViewById(R.id.rvPhonetics);
         rvMeanings = findViewById(R.id.rvMeanings);
+
     }
 }
