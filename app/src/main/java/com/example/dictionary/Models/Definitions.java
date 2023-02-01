@@ -3,6 +3,7 @@ package com.example.dictionary.Models;
 import java.util.List;
 
 public class Definitions {
+    //fetching data from the api in the listed order
     String definition ="";
     String example = "";
     List<String> synonyms = null;

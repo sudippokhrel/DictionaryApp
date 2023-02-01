@@ -12,6 +12,7 @@ import com.example.dictionary.R;
 public class PhoneticViewHolder extends RecyclerView.ViewHolder {
     public TextView tvPhonetic;
     public ImageButton ibAudio;
+
     public PhoneticViewHolder(@NonNull View itemView) {
         super(itemView);
         tvPhonetic = itemView.findViewById(R.id.tvPhonetic);

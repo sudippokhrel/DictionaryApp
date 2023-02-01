@@ -32,6 +32,8 @@ public class DefinitionAdapter extends RecyclerView.Adapter<DefinitionViewHolder
     public void onBindViewHolder(@NonNull DefinitionViewHolder holder, int position) {
         holder.tvDefinitions.setText("Definition:" + definitionsList.get(position).getDefinition());
         holder.tvExamples.setText("Example:" +definitionsList.get(position).getExample());
+
+        //Handling
         StringBuilder synonyms = new StringBuilder();
         StringBuilder antonyms = new StringBuilder();
 

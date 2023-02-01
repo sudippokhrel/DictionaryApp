@@ -3,6 +3,7 @@ package com.example.dictionary;
 import android.content.Context;
 import android.widget.Toast;
 
+import com.example.dictionary.Api.CallDictionary;
 import com.example.dictionary.Models.APIResponse;
 
 import java.util.List;
@@ -12,8 +13,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.GET;
-import retrofit2.http.Path;
 
 public class RequestManager {
     Context context;
@@ -55,10 +54,4 @@ public class RequestManager {
 
     }
 
-    public interface CallDictionary{
-        @GET ("entries/en/{word}")
-        Call<List<APIResponse>> callMeanings(
-                @Path("word") String word
-        );
-    }
 }
