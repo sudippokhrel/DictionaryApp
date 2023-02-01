@@ -25,7 +25,7 @@ public class DefinitionAdapter extends RecyclerView.Adapter<DefinitionViewHolder
     @NonNull
     @Override
     public DefinitionViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new DefinitionViewHolder(LayoutInflater.from(context).inflate(R.layout.defination_list_items,parent,false));
+        return new DefinitionViewHolder(LayoutInflater.from(context).inflate(R.layout.definitions_list_items,parent,false));
     }
 
     @Override
@@ -33,10 +33,11 @@ public class DefinitionAdapter extends RecyclerView.Adapter<DefinitionViewHolder
         holder.tvDefinitions.setText("Definition:" + definitionsList.get(position).getDefinition());
         holder.tvExamples.setText("Example:" +definitionsList.get(position).getExample());
 
-        //Handling
+        //Handling data into list
         StringBuilder synonyms = new StringBuilder();
         StringBuilder antonyms = new StringBuilder();
 
+        //append binds the stringBuilder data
         synonyms.append(definitionsList.get(position).getSynonyms());
         synonyms.append(definitionsList.get(position).getAntonyms());
 
@@ -50,6 +51,7 @@ public class DefinitionAdapter extends RecyclerView.Adapter<DefinitionViewHolder
 
     @Override
     public int getItemCount() {
-        return definitionsList.size();
+        return
+                definitionsList.size();
     }
 }

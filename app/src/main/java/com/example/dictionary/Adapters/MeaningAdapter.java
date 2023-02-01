@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.dictionary.Models.Meanings;
 import com.example.dictionary.R;
 import com.example.dictionary.ViewHolders.MeaningsViewHolder;
-import com.example.dictionary.ViewHolders.PhoneticViewHolder;
 
 import java.util.List;
 
@@ -27,7 +26,7 @@ public class MeaningAdapter extends RecyclerView.Adapter<MeaningsViewHolder> {
     @NonNull
     @Override
     public MeaningsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new MeaningsViewHolder(LayoutInflater.from(context).inflate(R.layout.meaning_list_items,parent, false));
+        return new MeaningsViewHolder(LayoutInflater.from(context).inflate(R.layout.meanings_layout_items,parent, false));
     }
 
     @Override
