@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="8dp"
-    app:cardBackgroundColor="@color/grey"
+    app:cardBackgroundColor="@color/light_gray"
     android:layout_margin="8dp">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:orientation="vertical"
@@ -17,7 +17,7 @@
             android:textSize="18sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -29,7 +29,7 @@
             android:textSize="18sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -41,7 +41,7 @@
             android:textSize="18sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -58,7 +58,7 @@
             android:textSize="17sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/light_blue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -70,7 +70,7 @@
             android:textSize="18sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -86,7 +86,7 @@
             android:textSize="17sp"
             android:textAlignment="center"
             android:padding="8dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
